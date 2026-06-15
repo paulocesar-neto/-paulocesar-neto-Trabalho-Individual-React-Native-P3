@@ -53,4 +53,15 @@ Este projeto foi desenvolvido como parte de um desafio acadêmico com o objetivo
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   git clone [https://github.com/paulocesar-neto/-paulocesar-neto-Trabalho-Individual-React-Native-P3.git]
+2. **Entre na pasta do projeto:**
+   ```cd
+    -paulocesar-neto-Trabalho-Individual-React-Native-P3.git
+3. **Instale as dependências:**
+   ```
+    npm install
+    # ou
+    yarn install
+4. **Inicie o projeto:**
+ ``` npx expo start
+   # ou o comando correspondente ao seu ambiente (ex: npm run android / ios)
