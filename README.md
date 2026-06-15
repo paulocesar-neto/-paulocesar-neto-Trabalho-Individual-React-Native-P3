@@ -63,5 +63,5 @@ Este projeto foi desenvolvido como parte de um desafio acadêmico com o objetivo
     # ou
     yarn install
 4. **Inicie o projeto:**
- ``` npx expo start
-   # ou o comando correspondente ao seu ambiente (ex: npm run android / ios)
+   ``` npx expo start
+    # ou o comando correspondente ao seu ambiente (ex: npm run android / ios)
