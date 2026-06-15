@@ -45,7 +45,7 @@ Este projeto foi desenvolvido como parte de um desafio acadêmico com o objetivo
 
 | App Original | Clone Desenvolvido |
 | :---: | :---: |
-| <img src="./assets/original_screenshot.png" width="300" alt="App Original"/> | <img src="./assets/clone_screenshot.png" width="300" alt="Clone"/> |
+| <img src="./assets/original_screenshot.png" width="300" alt="App Original"/> | <img src="./assets/clone_screenshot.jpeg" width="300" alt="Clone"/> |
 
 ---
 
