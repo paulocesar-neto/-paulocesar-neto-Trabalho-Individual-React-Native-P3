@@ -43,7 +43,7 @@ export default function App() {
         </View>
 
         <Text style={styles.welcomeText}>
-          Olá, Paulo
+          Olá, Bruce Wayne
         </Text>
       </View>
       <View style={styles.infoConta}>
@@ -57,7 +57,7 @@ export default function App() {
               source={seta} />
           </View>
           <Text style={styles.accountValue}>
-            {showSaldo ? 'R$ 300.000,00': '••••••••'}
+            {showSaldo ? 'R$ Ficou Pobre': '••••••••'}
           </Text>
         </TouchableOpacity>
       </View>
@@ -156,10 +156,10 @@ export default function App() {
             Fatura atual
           </Text>
         <Text  style={styles.cardValue} >
-          {showSaldo ? 'R$ 0,00': '••••••••'}
+          {showSaldo ? 'R$ Devendo a Liga': '••••••••'}
         </Text>
         <Text style={styles.cardInfo}>
-            Limite disponível de {showSaldo ? 'R$ 7.000,00': '••••••••'}
+            Limite disponível de {showSaldo ? 'R$ - Negativo' : '••••••••'}
           </Text>
           <View style={styles.line}>
         </View>
@@ -173,7 +173,7 @@ export default function App() {
           </View>
         </TouchableOpacity>
           <Text style={styles.cardInfo}>
-            Até R$ {showSaldo ? 'R$ 10.000,00': '••••••••'} disponível para você
+            Até R$ {showSaldo ? 'R$ 0,00': '••••••••'} disponível para você
           </Text>
             <View style={styles.line}>
         </View>
