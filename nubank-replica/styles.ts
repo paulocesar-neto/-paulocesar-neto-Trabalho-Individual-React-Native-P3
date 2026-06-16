@@ -35,6 +35,20 @@ export const styles = StyleSheet.create({
     gap: 8,
     flexDirection: 'row',
   },
+  searchContainer: {
+    paddingHorizontal: 20,
+    marginTop: 20,
+    marginBottom: 5,
+  },
+  searchInput: {
+    width:150,
+    backgroundColor: '#fffafa',
+    borderRadius: 25,
+    height: 45,
+    paddingHorizontal: 20,
+    fontSize: 16,
+    color: '#000000',
+  },
   eyeIcon: {
     borderRadius: 30,
     width: 35,

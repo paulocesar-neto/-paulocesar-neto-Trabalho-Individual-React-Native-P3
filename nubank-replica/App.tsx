@@ -1,4 +1,4 @@
-import { Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
+import { Text, View, Image, TouchableOpacity, ScrollView, TextInput } from 'react-native';
 import { styles } from './styles';
 import Eu from './assets/Eu.jpeg';
 import olho1 from './assets/olho1.png';
@@ -17,6 +17,7 @@ import { useState } from 'react';
 
 export default function App() {
   const [showSaldo, setShowSaldo] = useState(false);
+  const [search,setSearch]= useState('')
   
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
@@ -26,6 +27,12 @@ export default function App() {
           <Image style={styles.photoPerfil}
             source={Eu} />
           <View style={styles.navIcon}>
+            <TextInput 
+              style={styles.searchInput}
+            placeholder="Buscar"
+            value={search}
+            onChangeText={setSearch}
+            />
             <TouchableOpacity 
               onPress={() => setShowSaldo (!showSaldo)}>
                 <Image style={styles.eyeIcon}
